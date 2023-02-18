@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dainty Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,500;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <!--Start of Logo-->
+        <div class="logo"> 
+            <div class="container">
+                <p>Dainty <span>Movies</span></p>
+            </div>
+        </div> 
+        <!--End of Logo-->
+        <!--Search Box-->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie:</h3>
+
+                <input type="text" class="form-control" placeholder="Search Movie Title" id = "movie-search-box">
+                <div class="search-list">
+                    <div class="search-item-thumbnail">
+                    <!-- <img src="images/You_People.jpg" alt="">-->   
+                    </div>
+                    <div class="search-item-info">
+                        <h3>You People</h3>
+                        <p>2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Search Box-->
+    </div>
+    <!--Beginning of Result Container-->
+    <div class="container">
+        <div class="result-container">
+            <div class="result-grid" id="result-grid">
+                <!--movie information-->
+                <img src="images/You_People.jpg" alt="Movie poster">
+            </div>
+            <div class="movie-info">
+                <h3 class="movie-title">You People</h3>
+                <ul class="movie-misc-info">
+                    <li class="year">Year: 2023</li>
+                    <li class="rated">Ratings: R</li>
+                    <li class="released">Released: January 27, 2023</li>
+                </ul>
+                <p class="genre"><strong>Genre:</strong> Comedy, Romance</p>
+                <p class="writer"><strong>Writer:</strong> Jonah Hill, kenya Barris</p>
+                <p class="actors"><strong>Actors:</strong> Jonah Hill, Lauren London, Eddie Murphy</p>
+                <p class="plot"><strong>Plot:</strong> Follows a new couple and their families, who find themselves examining modern love and family dynamics amidst clashing cultures, societal expectations and generational differences.</p>
+                <p class="language"><strong>Language:</strong> English</p>
+            </div>
+        </div>
+    </div>
+    <!--End of Result Container-->
+    <script src="index.js"></script>
+</body>
+</html>
